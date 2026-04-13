@@ -6,9 +6,9 @@
 
 ### 🔥 Stats & Badges
 
-![Stars](https://img.shields.io/github/stars/lakshan-beast/YOUR-REPO?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/lakshan-beast/YOUR-REPO?style=for-the-badge)
-![License](https://img.shields.io/github/license/lakshan-beast/YOUR-REPO?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/lakshan-beast/My-Frontend-Projects-Lab?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/lakshan-beast/My-Frontend-Projects-Lab?style=for-the-badge)
+![License](https://img.shields.io/github/license/lakshan-beast/My-Frontend-Projects-Lab?style=for-the-badge)
 
 ---
 
@@ -35,8 +35,8 @@
 ### ⚙️ Local Setup
 
 ````bash
-git clone https://github.com/lakshan-beast/YOUR-REPO
-cd YOUR-REPO
+git clone https://github.com/lakshan-beast/My-Frontend-Projects-Lab
+cd My-Frontend-Projects-Lab
 
 
 
