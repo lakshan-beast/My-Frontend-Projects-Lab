@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Frontend Project Lab | Auto Logout</title>
+  </head>
+  <body>
+    <h2>Main Page</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error architecto
+      delectus voluptas iure consequuntur soluta animi, minus enim nemo
+      similique nostrum sed officia molestias, nobis in reiciendis totam a eum.
+    </p>
+
+    <p>
+      Laborum alias dolores saepe facere eos est qui dolorem provident,
+      laboriosam, magni rerum doloribus culpa tenetur aliquid cumque, adipisci
+      distinctio ducimus repellat officiis iure? Amet distinctio ducimus alias
+      quos nulla!
+    </p>
+
+    <p>
+      Consequuntur optio error, explicabo quo repellendus fugiat. At ex quae
+      voluptas, magni, saepe accusamus minima cum qui earum perspiciatis hic
+      asperiores doloribus voluptates optio incidunt exercitationem, molestiae
+      nostrum delectus unde.
+    </p>
+
+    <p>
+      Nobis quos laborum beatae similique enim voluptate velit, delectus iste
+      expedita, porro perspiciatis minus sint ipsum hic, quisquam nihil placeat
+      dolorem iusto. Praesentium aspernatur iure accusamus nam quae fuga ullam.
+    </p>
+
+    <p>
+      Voluptatem reiciendis dicta iste quos inventore adipisci eos beatae
+      veritatis repellat ex ut consequatur, molestiae quod molestias cumque
+      itaque? Facere qui perspiciatis praesentium veniam obcaecati animi
+      expedita est itaque delectus.
+    </p>
+
+    <div id="timer"></div>
+
+    <div onclick=""></div>
+
+    <script>
+      var timer = document.getElementById("timer");
+      var duration = 9;
+
+      setInterval(updateTimer, 1000);
+
+      function updateTimer() {
+        duration--;
+        if (duration < 1) {
+          window.location = "logout.html";
+        } else {
+          timer.innerText = `Logout after some ${duration}s`;
+        }
+      }
+
+      window.addEventListener("mousemove", resetTimer);
+
+      function resetTimer() {
+        duration = 9;
+      }
+    </script>
+  </body>
+</html>
