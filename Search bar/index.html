@@ -11,9 +11,17 @@
   </head>
   <body>
     <div class="box">
-      <input type="checkbox" name="check" id="check" />
+      <input type="checkbox" id="check" />
+
       <div class="search-box">
-        <input type="text" name="" id="" placeholder="Search here.." />
+        <label for="check" class="sr-only">Search</label>
+
+        <input
+          type="text"
+          id="search"
+          name="search"
+          placeholder="Search here.." />
+
         <label for="check" class="icon">
           <i class="fas fa-search"></i>
         </label>
