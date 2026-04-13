@@ -49,6 +49,42 @@ All frontend projects from roadap.sh
 
 <p align="center">කරුණාකර ඔබ කැමති Repositories වලට ⭐️ එකක් ලබා දී සහයෝගය දක්වන්න!</p> -->
 
+# 💻 My Frontend Projects Lab
+
+> A curated collection of interactive frontend components and UI experiments.
+
+<p align="center"> 
+<img src="https://shields.ioේ_username/my-frontend-projects-lab?style=for-the-badge&color=gold" alt="stars"> 
+<img src="https://shields.ioේ_username/my-frontend-projects-lab?style=for-the-badge&color=blue" alt="forks"> 
+<img src="https://shields.ioේ_username/my-frontend-projects-lab?style=for-the-badge&color=green" alt="license"> 
+</p> 
+--- 
+### 🛠 Tech Stack Used 
+<p align="left"> 
+<img src="https://shields.io" /> 
+<img src="https://shields.io" /> 
+<img src="https://shields.io" /> 
+</p> 
+--- 
+### 📂 Showcase Gallery 
+| Project | Tech | Live Demo | Repository | | :--- | :--- | :--- | :--- | 
+| 🔐 **Modern Login UI** | HTML CSS | [🚀 Try it Live](ඔබේ_Live_Link/Login-Page) | [📂 Code](./Login-Page) 
+| Glassmorphism Clockck** | JS CSS | [🚀 Try it Live](ඔබේ_Live_Link/Analog-Clock) | [📂 Code](./Analog-Clock) 
+| |Dynamic BG Changerer** | Vanilla JS | [🚀 Try it Live](ඔබේ_Live_Link/BG-Changer) | [📂 Code](./BG-Changer) | 
+|Interactive Counterer\*_ | Logic JS | [🚀 Try it Live](ඔබේ_Live_Link/Digital-Counter) | [📂 Code](./Digital-Counter) | 
+--- 
+### 📸 Project Snapshots 
+_(ඔබේ Projects වල screenshot එකක් ගෙන assets folder එකකට දමා මෙතනින් පෙන්වන්න පුළුවන්)\* 
+| Login UI | Analog Clock | | :---: | :---: |
+| <img src="https://placeholder.com" width="300"> | <img src="https://placeholder.com" width="300"> | 
+--- ### 📈 Contribution Stats 
+![Your GitHub Stats](https://vercel.appේ_username&show_icons=true&theme=radical) 
+--- ### 📫 Connect with Me 
+<p align="left"> 
+<a href="[ඔබේ_LinkedIn_Link](https://www.linkedin.com/in/lakshan-sandeepa)" target="blank"><img align="center" src="https://githubusercontent.com" alt="LinkedIn" height="30" width="40" /></a> 
+<a href="ඔබේ_Portfolio_Link" target="blank"><img align="center" src="https://githubusercontent.com" alt="Portfolio" height="30" width="40" /></a>
+ </p>
+
 # 🚀 My Frontend Projects Lab
 
 > A curated collection of interactive UI components, mini-tools, and frontend experiments built while mastering the web.
