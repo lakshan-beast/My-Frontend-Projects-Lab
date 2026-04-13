@@ -16,6 +16,8 @@
 
 ### 📂 Project Gallery
 
+Explore my mini-projects below. Each includes a Live Demo to see it in action and a Source Code link for the implementation details.
+
 | Project Name             | Tech Stack | Live Preview                                                        | Source Code                           |
 | :----------------------- | :--------- | :------------------------------------------------------------------ | :------------------------------------ |
 | Background Color Changer | JavaScript | [🚀 Live](https://lakshan-beast.github.io/Background-Color-Changer) | [📂 Code](./Background-Color-Changer) |
@@ -39,9 +41,8 @@
 To run any of these projects on your machine:
 
 1. Clone the repository:
-     <!-- #  git clone https://github.com -->
-   git clone https://github.com/lakshan-beast/My-Frontend-Projects-Lab
-   cd My-Frontend-Projects-Lab
+   # git clone https://github.com/lakshan-beast/My-Frontend-Projects-Lab
+   # cd My-Frontend-Projects-Lab
 2. Navigate to the specific project folder.
 3. Open index.html in your favorite browser.
 
@@ -56,10 +57,3 @@ If you find these projects helpful, feel free to reach out or give this repo a �
 Made with by ❤️ Lakshan Sandeepa
 
 ---
-
-<!--
-
-```md
-
-![Preview](./preview.png)
-``` -->
