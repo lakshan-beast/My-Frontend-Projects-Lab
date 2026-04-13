@@ -10,6 +10,8 @@
 ![Forks](https://img.shields.io/github/forks/lakshan-beast/My-Frontend-Projects-Lab?style=for-the-badge)
 ![License](https://img.shields.io/github/license/lakshan-beast/My-Frontend-Projects-Lab?style=for-the-badge)
 
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=00F7FF&lines=Frontend+Developer;UI+Designer;JavaScript+Lover)
+
 ---
 
 ### 📂 Project Gallery
@@ -34,18 +36,30 @@
 
 ### ⚙️ Local Setup
 
-````bash
-git clone https://github.com/lakshan-beast/My-Frontend-Projects-Lab
-cd My-Frontend-Projects-Lab
+To run any of these projects on your machine:
 
-
+1. Clone the repository:
+     <!-- #  git clone https://github.com -->
+   git clone https://github.com/lakshan-beast/My-Frontend-Projects-Lab
+   cd My-Frontend-Projects-Lab
+2. Navigate to the specific project folder.
+3. Open index.html in your favorite browser.
 
 ---
 
+### 🤝 Let's Connect
 
-### ✨ 1. Typing Animation
+If you find these projects helpful, feel free to reach out or give this repo a ⭐️!
+
+[LinkedIn](https://www.linkedin.com/in/lakshan-sandeepa) | [X (Twitter)](https://x.com/lakshan_beast) | [Portfolio](https://lakshan-beast.github.io/My_Portfolio)
+
+Made with by ❤️ Lakshan Sandeepa
+
+---
+
+<!--
+
 ```md
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=00F7FF&lines=Frontend+Developer;UI+Designer;JavaScript+Lover)
 
 ![Preview](./preview.png)
-````
+``` -->
