@@ -73,4 +73,4 @@ If you find these projects helpful, feel free to reach out or give this repo a �
 
 [LinkedIn](https://www.linkedin.com/in/lakshan-sandeepa) | [X (Twitter)](https://x.com/lakshan_beast) | [Portfolio](https://lakshan-beast.github.io/My_Portfolio)
 
-Made with by Lakshan Sandeepa
+Made with by ❤️ Lakshan Sandeepa
