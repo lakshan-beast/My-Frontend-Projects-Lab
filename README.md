@@ -40,7 +40,7 @@ Explore my mini-projects below. Each includes a Live Demo to see it in action an
 
 ---
 
-<!-- -[Single CV Page](https://github.com/lakshan-beast/single-cv-page). --> -->
+<!-- -[Single CV Page](https://github.com/lakshan-beast/single-cv-page). -->
 
 ### 🛠️ Core Technologies
 
@@ -50,7 +50,9 @@ Explore my mini-projects below. Each includes a Live Demo to see it in action an
 
 ![HTML5](https://shields.io)
 ![CSS3](https://shields.io)
-![javaScript](https://shields.io)
+![JavaScript](https://shields.io)
+![React](https://shields.io)
+![Sass](https://shields.io)
 
 ---
 
@@ -70,3 +72,5 @@ To run any of these projects on your machine:
 If you find these projects helpful, feel free to reach out or give this repo a ⭐️!
 
 [LinkedIn](https://www.linkedin.com/in/lakshan-sandeepa) | [X (Twitter)](https://x.com/lakshan_beast) | [Portfolio](https://lakshan-beast.github.io/My_Portfolio)
+
+Made with by Lakshan Sandeepa
