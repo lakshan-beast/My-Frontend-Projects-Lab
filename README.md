@@ -1,8 +1,8 @@
-# Frontend-Projects
+<!-- # Frontend-Projects
 
 All frontend projects from roadap.sh
 
--[Single CV Page](https://github.com/lakshan-beast/single-cv-page).
+-[Single CV Page](https://github.com/lakshan-beast/single-cv-page). -->
 
 <!--
 # 💻 My Frontend Projects Lab > A curated collection of interactive frontend components and UI experiments. <p align="center"> <img src="https://shields.ioේ_username/my-frontend-projects-lab?style=for-the-badge&color=gold" alt="stars"> <img src="https://shields.ioේ_username/my-frontend-projects-lab?style=for-the-badge&color=blue" alt="forks"> <img src="https://shields.ioේ_username/my-frontend-projects-lab?style=for-the-badge&color=green" alt="license"> </p> --- ### 🛠 Tech Stack Used <p align="left"> <img src="https://shields.io" /> <img src="https://shields.io" /> <img src="https://shields.io" /> </p> --- ### 📂 Showcase Gallery | Project | Tech | Live Demo | Repository | | :--- | :--- | :--- | :--- | | 🔐 **Modern Login UI** | HTML CSS | [🚀 Try it Live](ඔබේ_Live_Link/Login-Page) | [📂 Code](./Login-Page) | Glassmorphism Clockck** | JS CSS | [🚀 Try it Live](ඔබේ_Live_Link/Analog-Clock) | [📂 Code](./Analog-Clock) | |Dynamic BG Changerer** | Vanilla JS | [🚀 Try it Live](ඔබේ_Live_Link/BG-Changer) | [📂 Code](./BG-Changer) | |Interactive Counterer\*_ | Logic JS | [🚀 Try it Live](ඔබේ_Live_Link/Digital-Counter) | [📂 Code](./Digital-Counter) | --- ### 📸 Project Snapshots _(ඔබේ Projects වල screenshot එකක් ගෙන assets folder එකකට දමා මෙතනින් පෙන්වන්න පුළුවන්)\* | Login UI | Analog Clock | | :---: | :---: | | <img src="https://placeholder.com" width="300"> | <img src="https://placeholder.com" width="300"> | --- ### 📈 Contribution Stats ![Your GitHub Stats](https://vercel.appේ_username&show_icons=true&theme=radical) --- ### 📫 Connect with Me <p align="left"> <a href="ඔබේ_LinkedIn_Link" target="blank"><img align="center" src="https://githubusercontent.com" alt="LinkedIn" height="30" width="40" /></a> <a href="ඔබේ_Portfolio_Link" target="blank"><img align="center" src="https://githubusercontent.com" alt="Portfolio" height="30" width="40" /></a> </p>
@@ -59,6 +59,11 @@ All frontend projects from roadap.sh
   <img src="https://shields.io" />
 </p>
 
+<p align="left">
+  <img src="https://vercel.app" height="180" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+</p>
 ---
 
 ### 📂 Project Gallery
@@ -98,4 +103,6 @@ To run any of these projects on your machine:
 
 If you find these projects helpful, feel free to reach out or give this repo a ⭐️!
 
-[LinkedIn](https://linkedin.com) | [X (Twitter)](https://x.com) | [Portfolio](https://yourportfolio.com)
+[LinkedIn](https://www.linkedin.com/in/lakshan-sandeepa) | [X (Twitter)](https://x.com/lakshan_beast)
+
+<!-- | [Portfolio](https://yourportfolio.com) -->
