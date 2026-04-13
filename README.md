@@ -24,20 +24,19 @@
 
 Explore my mini-projects below. Each includes a Live Demo to see it in action and a Source Code link for the implementation details.
 
-| Project Name         | Tech Stack     | Live Preview                     | Source Code                  |
-| :------------------- | :------------- | :------------------------------- | :--------------------------- |
-| 🔐 Modern Login Page | HTML5 CSS3     | [🚀 Try Live](https://github.io) | [📂 View](./Login-Page)      |
-| ⏰ Analog Clock      | JavaScript CSS | [🚀 Try Live](https://github.io) | [📂 View](./Analog-Clock)    |
-| 🎨 BG Color Changer  | JavaScript     | [🚀 Try Live](https://github.io) | [📂 View](./BG-Changer)      |
-| 🔢 Digital Counter   | HTML JS        | [🚀 Try Live](https://github.io) | [📂 View](./Digital-Counter) |
-| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
-| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
-| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
-| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
-| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
-| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
-| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
-| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
+| Project Name             | Tech Stack | Live Preview                     | Source Code                           |
+| :----------------------- | :--------- | :------------------------------- | :------------------------------------ |
+| Background Color Changer | JavaScript | [🚀 Try Live](https://github.io) | [📂 View](./Background-Color-Changer) |
+| Modern Login Page        | HTML5 CSS3 | [🚀 Try Live](https://github.io) | [📂 View](./Login-Page)               |
+| Button Effects           | CSS3       | [🚀 Try Live](https://github.io) | [📂 View](./Button-Effects)           |
+| Collapse Tabs            | CSS3       | [🚀 Try Live](https://github.io) | [📂 View](./Collapse-Tab)             |
+| Counter                  | JavaScript | [🚀 Try Live](https://github.io) | [📂 View](./Counter)                  |
+| Filter Search            | JavaScript | [🚀 Try Live](https://github.io) | [📂 View](./Filter-Search)            |
+| Helahub Template         | CSS3       | [🚀 Try Live](https://github.io) | [📂 View](./Helahub-Template)         |
+| List Grid View           | CSS3       | [🚀 Try Live](https://github.io) | [📂 View](./List-Grid-View)           |
+| Model CloseUp            | CSS3       | [🚀 Try Live](https://github.io) | [📂 View](./Model-CLoseUp)            |
+| Search Bar               | JavaScript | [🚀 Try Live](https://github.io) | [📂 View](./Search-Bar)               |
+| Tab Control              | CSS3       | [🚀 Try Live](https://github.io) | [📂 View](./Tab-Control)              |
 
 ---
 
