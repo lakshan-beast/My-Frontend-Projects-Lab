@@ -77,6 +77,13 @@ Explore my mini-projects below. Each includes a Live Demo to see it in action an
 | 🎨 BG Color Changer  | JavaScript     | [🚀 Try Live](https://github.io) | [📂 View](./BG-Changer)      |
 | 🔢 Digital Counter   | HTML JS        | [🚀 Try Live](https://github.io) | [📂 View](./Digital-Counter) |
 | 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
+| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
+| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
+| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
+| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
+| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
+| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
+| 🎞️ CSS Animations    | CSS3           | [🚀 Try Live](https://github.io) | [📂 View](./Animations)      |
 
 ---
 
@@ -103,6 +110,4 @@ To run any of these projects on your machine:
 
 If you find these projects helpful, feel free to reach out or give this repo a ⭐️!
 
-[LinkedIn](https://www.linkedin.com/in/lakshan-sandeepa) | [X (Twitter)](https://x.com/lakshan_beast)
-
-<!-- | [Portfolio](https://yourportfolio.com) -->
+[LinkedIn](https://www.linkedin.com/in/lakshan-sandeepa) | [X (Twitter)](https://x.com/lakshan_beast) | [Portfolio](https://lakshan-beast.github.io/My_Portfolio)
