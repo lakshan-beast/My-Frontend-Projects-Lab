@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Frontend Project Lab | HelaHub | Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      හරි Soul, මම මේකට හොඳම basic සහ clean CSS එකක් හදලා දෙනවා. මේකෙන් හෙලහාබ් වෙබ්අඩවියට සරල, නරඹන්න හොඳ UI එකක් ලැබෙනවා.
+
+/* styles.css */
+
+/* Reset and base */
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f7f9f9;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      /* Header */
+      header {
+        background-color: #0a9a8a;
+        padding: 1rem 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .logo {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        float: left;
+      }
+
+      nav {
+        float: right;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.3rem 0.5rem;
+        transition:
+          background-color 0.3s ease,
+          color 0.3s ease;
+      }
+
+      nav ul li a:hover {
+        background-color: #077e72;
+        border-radius: 4px;
+      }
+
+      /* Clear floats */
+      header::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Main content */
+
+      .hero {
+        background: url("images/herbs-hero.jpg") center/cover no-repeat;
+        color: #fff;
+        text-align: center;
+        padding: 5rem 1rem;
+        text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+      }
+
+      .hero h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero p {
+        font-size: 1.25rem;
+      }
+
+      /* Sections */
+
+      .section {
+        padding: 3rem 1rem;
+        background-color: #fff;
+        margin: 2rem 0;
+        border-radius: 8px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+      }
+
+      .section h3 {
+        margin-bottom: 1.5rem;
+        color: #0a9a8a;
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      /* Product Grid */
+
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .product-card {
+        background-color: #f0f8f5;
+        border-radius: 8px;
+        padding: 1rem;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .product-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .product-card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 6px;
+        margin-bottom: 1rem;
+      }
+
+      .product-card h4 {
+        color: #0a9a8a;
+        margin-bottom: 0.5rem;
+      }
+
+      .product-card p {
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .product-card button {
+        background-color: #0a9a8a;
+        color: white;
+        border: none;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+      }
+
+      .product-card button:hover {
+        background-color: #077e72;
+      }
+
+      /* Forms */
+
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      input[type="text"],
+      input[type="number"],
+      input[type="email"],
+      input[type="password"],
+      textarea {
+        padding: 0.8rem 1rem;
+        border: 1.5px solid #0a9a8a;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-family: inherit;
+        resize: vertical;
+      }
+
+      textarea {
+        min-height: 100px;
+      }
+
+      button[type="submit"] {
+        background-color: #0a9a8a;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 6px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #077e72;
+      }
+
+      /* Cart Section */
+      #cart p {
+        text-align: center;
+        font-style: italic;
+        color: #777;
+      }
+
+      /* Footer */
+
+      footer {
+        background-color: #0a9a8a;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 0.9rem;
+        margin-top: 3rem;
+      }
+
+      /* Responsive */
+
+      @media (max-width: 768px) {
+        nav ul {
+          flex-direction: column;
+          gap: 0.8rem;
+        }
+
+        .logo,
+        nav {
+          float: none;
+          text-align: center;
+        }
+
+        .hero h2 {
+          font-size: 2rem;
+        }
+      }
+
+      .cart-item {
+        display: flex;
+        justify-content: space-between;
+        background-color: #e1f0ec;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.5rem;
+        border-radius: 6px;
+      }
+
+      .cart-item button.remove-btn {
+        background-color: #e74c3c;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        padding: 0.25rem 0.5rem;
+        cursor: pointer;
+        font-size: 0.85rem;
+        transition: background-color 0.3s ease;
+      }
+
+      .cart-item button.remove-btn:hover {
+        background-color: #c0392b;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">HelaHub</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#sell">Sell</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#cart">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h2>Welcome to HelaHub</h2>
+        <p>Buy and sell authentic local herbs and spices.</p>
+      </section>
+
+      <section id="shop" class="section">
+        <h3>Shop Herbs & Spices</h3>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="images/pepper.jpg" alt="Pepper" />
+            <h4>Pepper</h4>
+            <p>රු. 750/kg</p>
+            <button>Add to Cart</button>
+          </div>
+          <!-- Add more product cards -->
+        </div>
+      </section>
+
+      <section id="sell" class="section">
+        <h3>Sell on HelaHub</h3>
+        <form>
+          <input type="text" placeholder="Product Name" required />
+          <input type="number" placeholder="Price per kg" required />
+          <textarea placeholder="Description"></textarea>
+          <button type="submit">Submit Listing</button>
+        </form>
+      </section>
+
+      <section id="login" class="section">
+        <h3>Login / Register</h3>
+        <form>
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required />
+          <button type="submit">Login</button>
+        </form>
+      </section>
+
+      <section id="cart" class="section">
+        <h3>Your Cart</h3>
+        <p>No items in cart.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 HelaHub.lk - All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      // Get references
+      const cartSection = document.querySelector("#cart");
+      const cartItemsContainer = document.createElement("div");
+      cartSection.appendChild(cartItemsContainer);
+
+      // Store cart items
+      let cartItems = [];
+
+      // Function to update cart display
+      function updateCart() {
+        if (cartItems.length === 0) {
+          cartItemsContainer.innerHTML = "<p>No items in cart.</p>";
+        } else {
+          cartItemsContainer.innerHTML = "";
+          cartItems.forEach((item, index) => {
+            const itemDiv = document.createElement("div");
+            itemDiv.classList.add("cart-item");
+            itemDiv.innerHTML = `
+        <span>${item.name} - රු. ${item.price}/kg</span>
+        <button data-index="${index}" class="remove-btn">Remove</button>
+      `;
+            cartItemsContainer.appendChild(itemDiv);
+          });
+        }
+      }
+
+      // Add event listeners to all add to cart buttons
+      document.querySelectorAll(".product-card button").forEach((button) => {
+        button.addEventListener("click", function () {
+          const card = this.closest(".product-card");
+          const name = card.querySelector("h4").innerText;
+          const priceText = card.querySelector("p").innerText;
+          const price = priceText.replace(/[^\d]/g, ""); // Extract numbers only
+
+          // Add item to cart array
+          cartItems.push({ name, price });
+          updateCart();
+        });
+      });
+
+      // Event delegation to handle remove buttons inside cart
+      cartSection.addEventListener("click", function (e) {
+        if (e.target.classList.contains("remove-btn")) {
+          const index = e.target.getAttribute("data-index");
+          cartItems.splice(index, 1);
+          updateCart();
+        }
+      });
+
+      // Initialize cart display on page load
+      updateCart();
+    </script>
+  </body>
+</html>
