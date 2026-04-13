@@ -41,8 +41,8 @@ Explore my mini-projects below. Each includes a Live Demo to see it in action an
 To run any of these projects on your machine:
 
 1. Clone the repository:
-   # git clone https://github.com/lakshan-beast/My-Frontend-Projects-Lab
-   # cd My-Frontend-Projects-Lab
+   i. git clone https://github.com/lakshan-beast/My-Frontend-Projects-Lab
+   ii. cd My-Frontend-Projects-Lab
 2. Navigate to the specific project folder.
 3. Open index.html in your favorite browser.
 
@@ -54,6 +54,6 @@ If you find these projects helpful, feel free to reach out or give this repo a �
 
 [LinkedIn](https://www.linkedin.com/in/lakshan-sandeepa) | [X (Twitter)](https://x.com/lakshan_beast) | [Portfolio](https://lakshan-beast.github.io/My_Portfolio)
 
-Made with by ❤️ Lakshan Sandeepa
+<p align="right">Made with by ❤️ Lakshan Sandeepa</p>
 
 ---
