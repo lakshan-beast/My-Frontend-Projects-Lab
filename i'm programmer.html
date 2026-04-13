@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>first project</title>
+      <!-- <meta http-equiv="refresh" content="2"> -->
+      <style>
+            body {
+                  padding: 4rem;
+                  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            }
+
+
+            h1 > span {
+                  color: red;
+            }
+
+            button {
+                  background-color: rgb(13, 194, 194);
+                  color: whitesmoke;
+                  padding: .5rem 1rem;
+                  border: 0;
+                  cursor: pointer;
+                  box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            button:hover {
+                  background-color: darkslategray;
+            }
+
+      </style>
+</head>
+<body>
+      <hr>
+      <button>Say hi</button>
+      <h1>Hello <span>World!</span></h1><hr>
+
+      <script>
+            const btnElement = document.querySelector('button');
+            const spanElement = document.querySelector('span');
+
+            btnElement.addEventListener('click', () => {
+                  const youName = prompt('Please enter your name:')
+                  spanElement.textContent = youName;
+            });
+
+      </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>4th project | Counter</title>
+      <style>
+            body {
+                  font-family: sans-serif;
+                  background-color: rgb(197, 197, 197);
+            }
+            #counter {
+                  display: flex;
+                  width: 100%;
+                  justify-content: center;
+            }
+            #counterDisplay {
+                  font-size: 4rem;
+                  text-align: center;
+                  color: white;
+            }
+            #counter button {
+                  border: 0;
+                  padding: 0.5rem 1rem;
+                  font-size: 2rem;
+                  cursor: pointer;
+            }
+            #counterAdd {
+                  background-color: chartreuse;
+            }
+            #counterSub {
+                  background-color: brown;
+            }
+      </style>
+</head>
+<body>
+      <section id="counter">
+            <div>
+                  <h1 id="counterDisplay">0</h1>
+                  <div id="counterControls">
+                        <button id="counterSub">-</button>
+                        <button id="counterAdd">+</button>
+                  </div>
+            </div>
+      </section>
+      <script>
+            const subButtonElement = document.getElementById('counterSub');
+            const addButtonElement = document.getElementById('counterAdd');
+
+            const counterDisplayElement= document.getElementById('counterDisplay');
+
+            let total = 0;
+            const limit = 20;
+
+            const updateCounterDisplay = () => {
+                  if ( total > limit ) {
+                        total = limit;
+                  }
+                  if ( total < 0 ) {
+                        total = 0;
+                  }
+                  counterDisplayElement.textContent = total;
+                  document.body.style.setProperty('background-color', `rgb(${(total / limit) * 255}, 64, 0)`);
+            };
+
+            addButtonElement.addEventListener('click', () => {
+                  total += 1;
+                  updateCounterDisplay();
+            });
+            subButtonElement.addEventListener('click', () => {
+                  total -= 1;
+                  updateCounterDisplay();
+            });
+      </script>
+</body>
+</html>

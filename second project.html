@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> 2nd-project</title>
+      <style>
+            html {
+                  height: 100%;
+            }
+            body {
+                  height: 100%;
+                  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                  padding: 0;
+                  margin: 0;
+                  background-image: url(2024fgf.jpg);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+            }
+
+            button {
+                  margin: 2rem;
+                  padding: 2rem;
+                  width: 200px;
+                  border-radius: 10px;
+                  background-color: teal;
+                  color: whitesmoke;
+                  /* padding: 0.5rem; */
+                  border: 0;
+                  cursor: pointer;
+                  box-shadow: 0 0 15px 3px rgba(6, 109, 87, 0.4);
+            }
+
+            button:hover {
+                  background-color: rgb(24, 141, 141);
+            }
+
+            .modal {
+                  position: absolute;
+                  left: 0;top: 0;right: 0;bottom: 0;
+                  height: 100%;
+                  display: none;
+                  justify-content: center;
+                  align-items: center;
+            }
+
+            .modal__overlay {
+                  position: absolute;
+                  left: 0;top: 0;right: 0;bottom: 0;  
+                  background-color: rgba(0,0,0,0.4);
+            }
+
+            .modal__content {
+                  background-color: white;
+                  padding: 4rem;
+                  position: relative;
+                  cursor: pointer;
+                  border-radius: 10px;
+                  box-shadow: 0 0 12px 8px rgba(255, 255, 255, 0.5);
+
+            }
+
+            .modal.open {
+                  display: flex;
+
+            }
+      </style>
+</head>
+<body>
+      <div id="2nd-project">
+            <button id="openModal">Open Modal</button>
+            <div class="modal open">
+                  <div class="modal__overlay"></div>
+                  <div class="modal__content">
+                        <h1>Hello World!</h1>
+                        <p>Click anywere on the modal to close it.</p>
+                  </div>
+            </div>
+      </div>
+
+
+      <script>
+            const openModalbtnElement = document.querySelector("#openModal");
+            const modalElement = document.querySelector('.modal');const modalContentElement = modalElement.querySelector('.modal__content');
+
+            openModalbtnElement.addEventListener('click', () => {
+            modalElement.classList.add('open');
+            });
+
+            modalContentElement.addEventListener('click', () => {
+                  modalElement.classList.remove('open');
+            });
+      </script>
+</body>
+</html>

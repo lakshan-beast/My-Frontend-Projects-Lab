@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="C:\MCODES frontends/bootstrap and fontawesome/fontawesome-free-6.6.0-web/css/all.css"/>
+      <title>Dots 9 Menu</title>
+      <style>
+            /* *:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+            all: unset;
+            display: revert;
+            }
+            *,
+            *::before,
+            *::after {
+            box-sizing: border-box;
+            }
+            ol, ul {
+            list-style: none;
+            }
+            img {
+            max-width: 100%;
+            }
+            table {
+            border-collapse: collapse;
+            }
+            textarea {
+            white-space: revert;
+            } */
+            
+
+            body {
+                  display: flex;
+                  min-height: 100vh;
+                  align-items: center;
+                  justify-content: center;
+                  background: #10131c;
+            }
+            .navigation {
+                  position: absolute;
+                  width: 70px;
+                  height: 70px;
+                  display: flex;
+                  cursor: pointer;
+                  background: #212532;
+                  align-items: center;
+                  justify-content: center;
+                  border-radius: 12px;
+                  transition: 0.5s;
+                  transition-delay: 0.8s;
+            }
+            .navigation.active {
+                  width: 200px;
+                  height: 200px;
+                  border-radius: 12px;
+                  transition-delay: 0s;
+            }
+            .navigation span {
+                  position: absolute;
+                  width: 7px;
+                  height: 7px;
+                  display: inline-block;
+                  justify-content: center;
+                  align-items: center;
+                  background: #fff;
+                  border-radius: 50%;
+                  transform: translate(calc(12px * var(--x)) calc(12px * var(--y)));
+                  transition: transform 0.5s, width 0.5s, height 0.5s;
+                  transition-delay: calc(0.1s var(--i));
+            }
+            .navigation.active span {
+                  width: 45px;
+                  height: 45px;
+                  background: #333849;
+                  transform: translate(calc(60px * var(--x)) calc(60px * var(--y)));
+            }
+            .navigation span i {
+                  transition: 0.5s;
+                  font-size: 0rem;
+            }
+            .navigation.active span i {
+                  color: white;
+                  font-size: 1.3rem;
+            }
+             .navigation.active span:hover i {
+                  color: #2dfc52;
+                  filter: drop-shadow(0 0 2px #2dfc52)
+                        drop-shadow(0 0 5px #2dfc52)
+                        drop-shadow(0 0 15px #2dfc52)
+             }
+      </style>
+</head>
+<body>
+      <div class="navigation">
+            <span style="--i:0;--x:-1;--y:0"><i class="camera"></i></span>
+            <span style="--i:1;--x:1;--y:0"><i class="daimond"></i></span>
+            <span style="--i:2;--x:0;--y:-1"><i class="chatbubble"></i></span>
+            <span style="--i:3;--x:0;--y:1"><i class="alarm"></i></span>
+            <span style="--i:4;--x:1;--y:1"><i class="game-control"></i></span>
+            <span style="--i:5;--x:-1;--y:-1"><i class="moon"></i></span>
+            <span style="--i:6;--x:0;--y:0"><i class="notification"></i></span>
+            <span style="--i:7;--x:-1;--y:1"><i class="water"></i></span>
+            <span style="--i:8;--x:1;--y:-1"><i class="time"></i></span>
+      </div>
+      i.
+
+      <script>
+            let navigation = document.querySelector('.navigation');
+            navigation.onclick = function() {
+                  navigation.classList.toggle('active')
+            }
+      </script>
+</body>
+</html>
