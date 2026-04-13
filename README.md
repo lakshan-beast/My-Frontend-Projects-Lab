@@ -40,9 +40,7 @@ Explore my mini-projects below. Each includes a Live Demo to see it in action an
 
 To run any of these projects on your machine:
 
-1. Clone the repository:
-   i. git clone https://github.com/lakshan-beast/My-Frontend-Projects-Lab
-   ii. cd My-Frontend-Projects-Lab
+1. Clone the repository: git clone https://github.com/lakshan-beast/My-Frontend-Projects-Lab
 2. Navigate to the specific project folder.
 3. Open index.html in your favorite browser.
 
