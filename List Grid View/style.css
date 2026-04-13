@@ -29,6 +29,19 @@ button {
   box-shadow: 0px 3px 6px rgb(206, 206, 206);
 }
 
+.column:nth-child(1) {
+  background-color: rgb(143, 23, 255);
+}
+.column:nth-child(2) {
+  background-color: rgb(194, 129, 255);
+}
+.column:nth-child(3) {
+  background-color: rgb(209, 160, 255);
+}
+.column:nth-child(4) {
+  background-color: rgb(238, 221, 255);
+}
+
 .row::after {
   content: "";
   display: table;
